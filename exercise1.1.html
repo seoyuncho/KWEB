@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KWEB Survey Page</title>
+</head>
+
+<body>
+    <h1>KWEB Survey Page</h1>
+    <div>
+        <img src="https://i.imgur.com/hSSFVSw.png"alt="KWEB 로고"width="300">
+        <p>
+        <a href="https://kwebofficial.com/"title="KWEB 페이스북 페이지"target="_blank">KWEB Homepage</a>
+        </p>
+    </div>
+    <div>
+        <ol>
+            <div class="name">
+                <li>
+                    <p>
+                    Write your name.
+                </p>
+                    <input type="text"name="Name">
+                </li>
+            </div>
+            <div class="student_number">
+                <li>
+                    <p>
+                    Write your student number.
+                    </p>
+                    <input type="text"name="student_number">
+                </li>
+            </div>
+            <div class="member_level">
+                <li>
+                    <p>
+                    Select your member level.
+                    </p>
+                    <label><input type="radio" name="member_level" value="Admin"><span>Admin</span></label>
+                    <label><input type="radio" name="member_level" value="Intern"><span>Intern</span></label>
+                    <label><input type="radio" name="member_level" value="Qualified"><span>Qualified</span></label>
+                    
+                </li>    
+            </div>
+            <div class="fields">
+                <li>
+                    <p>
+                    Select all fields you are interested in.
+                    <label><input type="checkbox" name="fields" value="Front-end"><span>Front-end></span></label>
+                    <label><input type="checkbox" name="fields" value="Back-end"><span>Back-end></span></label>
+                    <label><input type="checkbox" name="fields" value="Web crawling"><span>Web crawling></span></label>
+                    <label><input type="checkbox" name="fields" value="Web security"><span>Web security></span></label>
+                    <label><input type="checkbox" name="fields" value="Etcetera "><span>Etcetera<input type="text"name="Etcetera"></span></label>
+                    </p>
+                </li>
+            </div class="evaluation_feedback">
+            <div>
+                <li>
+                    <p>
+                    Give us your overall evaluation and feedback about the previous study.
+                    <textarea cols="80" rows="20"></textarea>
+                    </p>
+                </li>
+                <button type="submit">Submit your answers</button>
+            </div>
+        </ol>
+    </div>
+</body>
+</html>
