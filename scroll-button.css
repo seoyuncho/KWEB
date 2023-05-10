@@ -1,0 +1,18 @@
+button {
+    height: 100px;
+    width: 50px;
+    background-color: darkblue;
+    border-width: 0px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+}
+
+#pos-element {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}

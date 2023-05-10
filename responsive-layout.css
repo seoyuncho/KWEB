@@ -1,0 +1,48 @@
+.header {
+    height: 100px;
+    margin: 10px 20px;
+    border: 2px solid red;
+    background-color: lightpink
+}
+
+.body>.navbar {
+    height: 600px;
+    border: 2px solid brown;
+    margin: 10px 20px;
+    background-color: gold
+}
+
+.body>.content {
+    height: 600px;
+    margin: 10px 20px;
+    border: 2px solid blue;
+    background-color: deepskyblue
+}
+
+.footer {
+    height: 200px;
+    margin: 10px 20px;
+    border: 2px solid green;
+    background-color: lightgreen
+}
+
+@media only screen and (min-width: 800px) {
+
+    .body>.navbar {
+        width: 200px;
+        margin-right: 2px;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block
+    }
+
+    .body>.content {
+        width: 500px;
+        margin-left: 2px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block
+    }
+}
